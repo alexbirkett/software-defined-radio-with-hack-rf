@@ -1,7 +1,7 @@
 software-defined-radio-with-hack-rf
 ===================================
 
-Homework assignments for Michael Ossmann's Software Defined Radio with HackRF completed using USRP
+Homework assignments for Michael Ossmann's [Software Defined Radio with HackRF](http://greatscottgadgets.com/sdr/) completed using USRP
 
 #Notes
 
