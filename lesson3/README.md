@@ -1,4 +1,7 @@
 #Lesson 3
+
+[Lesson 3 Video](https://greatscottgadgets.com/sdr/3/)
+
 A decibel is typically described as a "logarithmic unit of ratio":
 
 ![10\log_{10}\frac{a}{b}](http://www.sciweavers.org/upload/Tex2Img_1409495829/render.png)
