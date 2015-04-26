@@ -4,11 +4,56 @@
 
 A decibel is typically described as a "logarithmic unit of ratio":
 
-![10\log_{10}\frac{a}{b}](http://www.sciweavers.org/upload/Tex2Img_1409495829/render.png)
+![10\log_{10}\frac{a}{b}](http://latex.codecogs.com/gif.latex?10%5Clog_%7B10%7D%5Cfrac%7Ba%7D%7Bb%7D)
 
 or
 
-![20\log_{10}\frac{a}{b}](http://www.sciweavers.org/upload/Tex2Img_1409495939/render.png)
+![20\log_{10}\frac{a}{b}](http://latex.codecogs.com/gif.latex?20%5Clog_%7B10%7D%5Cfrac%7Ba%7D%7Bb%7D)
+
+But forget all that ...
+
+![1db=\frac{1}{10}Bel](http://latex.codecogs.com/gif.latex?1db%3D%5Cfrac%7B1%7D%7B10%7DBel)
+
+A Bel is a description of the number of orders of magnitude (powers of ten)
+
+| Ratio | Bels |
+|-------|------|
+| 10:1  | 1    |
+| 100:1 | 2    |
+
+
+![\frac{A}{B}=10^n](http://latex.codecogs.com/gif.latex?%5Cfrac%7BA%7D%7BB%7D%3D10%5En) where n is the number of Bels.
+
+Mike is 2m tall, his brother is 20m tall. 20/2 = 10:1. Mike's brother is therefore 1 Bel taller than Mike. There are 10db in every Bel, therefore Mike's brother is 10db taller than him.
+
+
+
+Adding Bels is like multiplying a ratio by ten. Adding or subtracting Bels or decibels is the same as multiplying or dividing ratios themselves.
+
+Decibels are handy because:
+* They let us describe quantities that vary widely over many orders of magnitude
+* They give us mathematical shortcuts (they let us add or subtract instead of multiplying or divinding)
+
+Here's a trick
+
+3db is approximately 2:1
+
+Mike is 2m tall, his brother is 4m tall. 4/2 = 2:1. We skip the Bels step and recognise that a doubling is 3db. Therefore Mike's brother is 3db Mike.
+
+Mike is 2m tall, his brother is 40m tall. 40/2 = 20:1. (10 x 2):1. Multiplying a ratio is the same as adding decibels. From the 10 we get 10db, from the 2 we get 3db. 10db + 3db is 13db. So Mike's brother is 13db Mike.
+
+Mike is 2m tall, his brother is 1m tall. 1/2 = 1:2 (or 1/2 : 1). When we divide ratios we subtract decibels. So Mike's brother is -3db Mike.
+
+Mike is 2m tall, his brother is also 2m tall. 2 / 2 = 1:1. 1 is zero orders of magnitude. Therefor Mike's brother is 0 Bels taller than him. Mike's brother is 0 (0 x 10) dbs taller than him. So Mike's brother is 0db Mike.
+
+Three common mistakes:
+
+1. Not specifying what dbs are relative to
+2. Confusing amplitude with power (Power is proportional to amplitude squared.)
+3. Get negatives wrong
+
+e.g. Somebody says that a system has - 5db loss. What they probably mean is it has 5db gain. (5db loss) Be careful with double negatives
+
 
 
 ##homework
